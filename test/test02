@@ -1,0 +1,16 @@
+main(){
+    int n;
+    int s;
+    read n;
+    if(!n < 1 || !n == 1){
+        write -1;
+    }else{
+        s = 0;
+        while(n > 0){
+            s = s + n;
+            n = n -1;
+        }
+        write s;
+    }
+    exit;
+}
