@@ -1,5 +1,13 @@
 # Lotus Compiler
 
+## Prerequisites Development packages for Ubuntu Linux Ubuntu 16.04 LTS:
+
+```sh
+sudo apt update
+sudo apt build-essential
+sudo apt install flex bison
+```
+
 ## HOW TO BUILD
 
 On FreeBSD, please use "gmake" command to build the makefile.
